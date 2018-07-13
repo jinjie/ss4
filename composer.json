@@ -1,0 +1,64 @@
+{
+    "name": "jinjie/ss4",
+    "description": "SilverStripe 4 Quick Start",
+    "require": {
+        "php": ">=7.0",
+        "silverstripe/recipe-plugin": "^1",
+        "silverstripe/recipe-cms": "1.1.2@stable",
+        "silverstripe-themes/simple": "~3.2.0",
+        "symbiote/silverstripe-gridfieldextensions": "^3",
+        "bummzack/sortablefile": "^2",
+        "silverstripe/userforms": "^5",
+        "jinjie/silverstripe-valitron": "^1",
+        "gdmedia/ss-auto-git-ignore": "~1.0"
+    },
+    "extra": {
+        "project-files": [
+            "app/_config/*",
+            ".env.example"
+        ],
+        "public-files": [
+            "assets/*",
+            "favicon.ico"
+        ],
+        "branch-alias": {
+            "4.x-dev": "4.3.x-dev"
+        },
+        "project-files-installed": [
+            "app/.htaccess",
+            "app/_config.php",
+            "app/_config/mysite.yml",
+            "app/src/Page.php",
+            "app/src/PageController.php",
+            "mysite/.htaccess",
+            "mysite/_config.php",
+            "mysite/_config/mysite.yml",
+            "mysite/code/Page.php",
+            "mysite/code/PageController.php"
+        ],
+        "public-files-installed": [
+            ".htaccess",
+            "index.php",
+            "install-frameworkmissing.html",
+            "install.php",
+            "web.config"
+        ]
+    },
+    "license": "MIT",
+    "scripts": {
+        "post-update-cmd": [
+            "GDM\\SSAutoGitIgnore\\UpdateScript::Go"
+        ],
+        "post-install-cmd": [
+            "GDM\\SSAutoGitIgnore\\UpdateScript::Go"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Kong Jin Jie",
+            "email": "jinjie@swiftdev.sg"
+        }
+    ],
+    "prefer-stable": true,
+    "minimum-stability": "stable"
+}
