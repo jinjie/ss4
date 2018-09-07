@@ -4,7 +4,7 @@
     "require": {
         "php": ">=7.0",
         "silverstripe/recipe-plugin": "^1",
-        "silverstripe/recipe-cms": "1.1.2@stable",
+        "silverstripe/recipe-cms": "^4",
         "silverstripe-themes/simple": "~3.2.0",
         "symbiote/silverstripe-gridfieldextensions": "^3",
         "bummzack/sortablefile": "^2",
