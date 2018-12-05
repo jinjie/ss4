@@ -11,17 +11,8 @@
         "silverstripe/userforms": "^5",
         "gdmedia/ss-auto-git-ignore": "~1.0",
         "jinjie/ganalytics": "^1.0",
-        "jinjie/silverstripe-valitron": "dev-feature/v2"
+        "jinjie/silverstripe-valitron": "^2"
     },
-    "repositories": [
-        {
-            "type": "path",
-            "url": "~/Desktop/packages/jinjie/silverstripe-valitron",
-            "options": {
-                "symlink": true
-            }
-        }
-    ],
     "extra": {
         "project-files": [
             "app/_config/*",

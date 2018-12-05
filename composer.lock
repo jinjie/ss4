@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e6bf20e3d71c5e5fe2c1194f042e92d0",
+    "content-hash": "eccbb9f80e69e877aa2fe58164f38656",
     "packages": [
         {
             "name": "bummzack/sortablefile",
@@ -491,18 +491,24 @@
         },
         {
             "name": "jinjie/silverstripe-valitron",
-            "version": "dev-feature/v2",
+            "version": "v2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jinjie/silverstripe-valitron.git",
+                "reference": "f0de992bf7a428cdc6bdf556b87bfde69c9ff68e"
+            },
             "dist": {
-                "type": "path",
-                "url": "/Users/Kong/Desktop/packages/jinjie/silverstripe-valitron",
-                "reference": "7de738db98b7ad3efa083947cb82eac2e5e8f938",
-                "shasum": null
+                "type": "zip",
+                "url": "https://api.github.com/repos/jinjie/silverstripe-valitron/zipball/f0de992bf7a428cdc6bdf556b87bfde69c9ff68e",
+                "reference": "f0de992bf7a428cdc6bdf556b87bfde69c9ff68e",
+                "shasum": ""
             },
             "require": {
                 "silverstripe/framework": "^4",
                 "vlucas/valitron": "^1.4"
             },
             "type": "silverstripe-vendormodule",
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -513,9 +519,7 @@
                 }
             ],
             "description": "Better SilverStripe DataObject Validation With Valitron",
-            "transport-options": {
-                "symlink": true
-            }
+            "time": "2018-12-05T15:14:37+00:00"
         },
         {
             "name": "league/csv",
@@ -3001,9 +3005,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "jinjie/silverstripe-valitron": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
